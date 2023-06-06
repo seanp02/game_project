@@ -462,7 +462,7 @@ def mob_attack(mobname, mobatk, usrname, usrhp):
         print("크리티컬!!!!")
     usrhp -= damage
     if usrhp <= 0:
-        print(f"{mobname}에게 {damage}의 데미지를 입혔습니다!\n")
+        print(f"{usrname}은(는) {mobname}에게 {damage}의 데미지를 입었습니다.\n")
         return False
     else:
         print(f"{usrname}은(는) {damage}의 데미지를 입었습니다.\n")
